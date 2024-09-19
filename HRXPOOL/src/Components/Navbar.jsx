@@ -82,9 +82,9 @@ const Navbar = () => {
           </a>
           <a href="#email" className="block hover:text-[#0ef] pr-6">
             Email 
-          </a>|
-          <a  className="hover:text-[#0ef] flex pb-4 md:pb-0 lg:justify-between lg:gap-4 items-center">
-          <FaPhoneAlt />
+          </a>
+          <a  className="hover:text-[#0ef] flex  pb-4 md:pb-0 lg:justify-between lg:gap-4 items-center">
+          |<FaPhoneAlt className="ml-2" />
              +881328458912
           </a>
         </nav>

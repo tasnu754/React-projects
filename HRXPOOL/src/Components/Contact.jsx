@@ -6,12 +6,14 @@ import { FiGithub } from "react-icons/fi";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { CiLocationOn } from "react-icons/ci";
 
+
 const Contact = () => {
+ 
   return (
     <div
      data-aos="zoom-in"
       data-aos-duration="2000"
-      className="md:w-[80%] mx-auto mt-20 mb-24 lg:flex   gap-0 space-y-10"
+      className="md:w-[80%] mx-auto mt-20 mb-24 lg:flex   gap-0 space-y-10 "
       id="contact"
     >
       <div className="flex-1 space-y-4 ">

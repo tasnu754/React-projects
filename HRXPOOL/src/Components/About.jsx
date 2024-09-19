@@ -3,7 +3,7 @@ const About = () => {
     return (
         <div
 
-        className=" flex flex-col-reverse gap-6 xl:flex-row  min-h-screen items-center w-[90%] mx-auto" 
+        className=" flex flex-col-reverse gap-6 xl:flex-row  min-h-screen items-center md:w-[90%] mx-auto" 
         id="about"
       >
         

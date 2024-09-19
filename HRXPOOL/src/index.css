@@ -13,6 +13,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
          
          
@@ -20,16 +25,14 @@
 .nav-col {
     background-image: linear-gradient(to right, #000428 0%, #004e92  51%, #000428  100%);
     text-align: center;
-    text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
     color: white;            
     box-shadow: 0 0 20px #eee;
-    display: block;
   }
 
   .nav-col:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center; 
     color: #fff;
     text-decoration: none;
   }

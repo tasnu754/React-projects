@@ -62,7 +62,7 @@ const Navbar = () => {
           data-aos={window.innerWidth >= 768 ? "fade-down" : ""}
           data-aos-delay={window.innerWidth >= 768 ? "300" : ""}
           data-aos-duration={window.innerWidth >= 768 ? "1000" : ""}
-          className={`z-10  md:flex md:items-center space-y-6 md:space-y-0 md:space-x-4 xl:space-x-10 text-white md:text-xl lg:text-2xl  transition-all duration-300 ease-in-out ${
+          className={`z-10  md:flex md:items-center space-y-6 md:space-y-0 md:space-x-4 xl:space-x-10 text-white md:text-xl lg:text-xl  transition-all duration-300 ease-in-out ${
             isOpen ? 'block' : 'hidden'
           } md:block`}
 
@@ -74,11 +74,11 @@ const Navbar = () => {
           <a href="#about" className="block hover:text-[#0ef] ">
             About 
           </a>
-          <a href="#contact" className="block hover:text-[#0ef]">
-            Contact 
-          </a>
           <a href="#team" className="block hover:text-[#0ef]">
             Team 
+          </a>
+          <a href="#contact" className="block hover:text-[#0ef]">
+            Contact 
           </a>
           <a href="#email" className="block hover:text-[#0ef] pr-6">
             Email 

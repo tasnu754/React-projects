@@ -10,6 +10,7 @@ const About = () => {
           <div
             data-aos="flip-down"
             data-aos-duration="2000"
+            data-aos-delay="500"
            className="border-2 border-blue-400 lg:w-[510px] lg:h-[400px] xl:w-[600px] xl:h-[550px] mx-auto rounded-md ">
             <img
               className="w-full h-full object-cover"

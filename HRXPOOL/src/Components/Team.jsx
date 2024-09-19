@@ -15,7 +15,10 @@ const Team = () => {
         </div>
         <div className="flex min-h-[70vh] items-center justify-center">
           <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 ">
-            <div className="group relative item-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black/30 transition-shadow rounded-md">
+            <div
+            data-aos="flip-right"
+            data-aos-duration="2000"
+             className="group relative item-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black/30 transition-shadow rounded-md">
               <div className="h-96 w-72">
                 <img
                   className="h-full w-full object-cover group-hover:scale-125 transition-transform duration-500"
@@ -37,7 +40,10 @@ const Team = () => {
                 </p>
               </div>
             </div>
-            <div className="group relative item-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black/30 transition-shadow rounded-md">
+            <div 
+            data-aos="flip-right"
+            data-aos-duration="2000"
+            className="group relative item-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black/30 transition-shadow rounded-md">
               <div className="h-96 w-72">
                 <img
                   className="h-full w-full object-cover group-hover:scale-125 transition-transform duration-500"
@@ -59,7 +65,10 @@ const Team = () => {
                 </p>
               </div>
             </div>
-            <div className="group relative item-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black/30 transition-shadow rounded-md">
+            <div 
+            data-aos="flip-right"
+            data-aos-duration="2000"
+            className="group relative item-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black/30 transition-shadow rounded-md">
               <div className="h-96 w-72">
                 <img
                   className="h-full w-full object-cover group-hover:scale-125 transition-transform duration-500"
@@ -81,7 +90,10 @@ const Team = () => {
                 </p>
               </div>
             </div>
-            <div className="group relative item-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black/30 transition-shadow rounded-md">
+            <div 
+            data-aos="flip-right"
+            data-aos-duration="2000"
+            className="group relative item-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black/30 transition-shadow rounded-md">
               <div className="h-96 w-72">
                 <img
                   className="h-full w-full object-cover group-hover:scale-125 transition-transform duration-500"

@@ -1,5 +1,6 @@
 import About from "./About";
 import Banner from "./Banner";
+import Contact from "./Contact";
 import Navbar from "./Navbar";
 import Team from "./Team";
 
@@ -8,9 +9,10 @@ const Home = () => {
         <div>
              <Navbar></Navbar>
              <Banner></Banner>
-             <div >
+             <div className="w-[90%] mx-auto">
                 <About></About>
                 <Team></Team>
+                <Contact></Contact>
              </div>
         </div>
     );

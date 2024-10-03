@@ -1,45 +1,49 @@
-// import Swal from "sweetalert2";
-// import { useRef } from "react";
-// import emailjs from "@emailjs/browser";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 
 const Email = () => {
-    // const form = useRef();
+    const form = useRef();
 
-    // const sendEmail = (e) => {
-    //   e.preventDefault();
+    const sendEmail = (e) => {
+      e.preventDefault();
   
-    //   emailjs
-    //     .sendForm(
-    //       "service_9mt564n",
-    //       "template_it3jim8",
-    //       form.current,
-    //       "5RZHP6FAfGyECUuGU"
-    //     )
-    //     .then(
-    //       (result) => {
-    //         console.log(result.text);
-    //         e.target.reset();
-    //         Swal.fire({
-    //           position: "top-end",
-    //           icon: "success",
-    //           title: "Your message send successfully",
-    //           showConfirmButton: false,
-    //           timer: 1500,
-    //         });
+      emailjs
+        .sendForm(
+          "service_rkx9swr",
+          "template_b9n3byg",
+          form.current,
+          "6HvH7f6vG2_3BK3Wm"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            e.target.reset();
+            Swal.fire({
+              position: "top-end",
+              icon: "success",
+              title: "Your message send successfully",
+              showConfirmButton: false,
+              timer: 1500,
+            });
   
-    //       },
-    //       (error) => {
-    //         console.log(error.text);
-    //       }
-    //     );
-    // };
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    };
   return (
-    <div id="email">
+    <div
+     data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom"
+     data-aos-duration="2000"
+     id="email">
         <h2 className="text-3xl text-center font-bold mb-10">Send Messages</h2>
       <div className="lg:w-[60%] mx-auto">
         <form
-          //   ref={form}
-          //   onSubmit={sendEmail}
+            ref={form}
+            onSubmit={sendEmail}
           className="space-y-10 mt-10 md:mt-0"
         >
           <div className="relative h-11 w-full min-w-[200px]">
